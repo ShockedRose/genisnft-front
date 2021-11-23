@@ -4,7 +4,7 @@ const theme = extendTheme({
 	styles: {
 		global: {
 			body: {
-				bg: "pink.100",
+				bg: "white",
 				color: "purple.800",
 			},
 			// styles for the `a`
@@ -12,6 +12,19 @@ const theme = extendTheme({
 				_hover: {
 					textDecoration: "underline",
 				},
+			},
+			h2: {
+				fontSize: ["2rem"],
+				fontWeight: "semibold",
+				lineHeight: "110%",
+				letterSpacing: "-1%",
+			},
+			h3: {
+				fontSize: ["1.2rem"],
+				fontWeight: "semibold",
+				lineHeight: "110%",
+				letterSpacing: "-1%",
+				paddingBottom: "0.5rem",
 			},
 		},
 	},
